@@ -15,6 +15,8 @@ PriceWise is a standalone data engineering and analytics project for collecting 
 docker compose up -d db
 ```
 
+Apply SQL files from `sql/schema/` and `sql/marts/` before loading data.
+
 Run tests:
 
 ```bash
